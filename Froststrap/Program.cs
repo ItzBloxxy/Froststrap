@@ -92,7 +92,7 @@ sealed class Program
         try
         {
             Logger.Debug($"Log file: {Logging.FileLocation}");
-            NNotify.InitRing();
+            NativeNotify.InitRing();
             AppInitializer.InitializeNativeResolvers();
             BuildAvaloniaApp().StartWithClassicDesktopLifetime(args);
         }

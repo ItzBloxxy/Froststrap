@@ -55,9 +55,7 @@ namespace Froststrap
             [
                 MenuFlag, WatcherFlag, BackgroundUpdaterFlag, OnboardingFlag, QuietFlag,
                 NoLaunchFlag, TestModeFlag, UpgradeFlag, PlayerFlag, StudioFlag, VersionFlag,
-
                 ChannelFlag, ForceFlag, GameShortcutFlag, ConsoleFlag, NoGpuFlag,
-
                 ChannelFlag, ForceFlag, GameShortcutFlag,
                 ConsoleFlag, NoGpuFlag
             ];
